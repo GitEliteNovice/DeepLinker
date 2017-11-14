@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/backdeep"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.deeplinker.MainActivity">
+<EditText
+    android:id="@+id/url"
+    android:layout_marginLeft="10dp"
+    android:singleLine="true"
+    android:hint="paste url here"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@android:color/white"
+    />
+<Button
+    android:id="@+id/submit"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:text="@string/clickme"
+    android:theme="@style/PrimaryButton" />
+</LinearLayout>
